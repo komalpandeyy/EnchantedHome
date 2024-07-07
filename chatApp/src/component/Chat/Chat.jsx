@@ -69,7 +69,7 @@ const Chat = () => {
             <div className="chatContainer">
                 <div className="header">
                     <h2>Enchanted Home</h2>
-                    <a href="/"> <img src={closeIcon} alt="Close" /></a>
+                    <a href="/"> <img src={closeIcon} alt="Close"/></a>
                 </div>
                 <ReactScrollToBottom className="chatBox">
                     {messages.map((item, i) => <Message user={item.id === id ? '' : item.user} message={item.message} classs={item.id === id ? 'right' : 'left'} />)}

@@ -22,7 +22,11 @@ const Join = () => {
                 <img src={logo} alt="logo" />
                 <h1>Enchanted Home</h1>
                 <input onChange={(e) => setname(e.target.value)} placeholder="Enter Your Name" type="text" id="joinInput" />
-                <Link onClick={(event) => !name ? event.preventDefault() : null} to="/chat">  <button onClick={sendUser} className="joinbtn">Login In</button></Link>
+                <Link onClick={(event) => !name ? event.preventDefault() : null} to="/chat">  <button onClick={sendUser} className="joinbtn">Login</button></Link>
+            </div>
+
+            <div className="gallery">
+               
             </div>
         </div>
     )

@@ -1,28 +1,32 @@
 .chatPage{
-    background-color: rgb(31, 29, 29);
+    
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../../images/bg.jpg");
 }
 
 .chatContainer{
     background-color: white;
-    height: 60%;
-    width: 50%;
+    height: 70%;
+    width: 40%;
 }
 
 .header{
-    background-color: crimson;
+    background-color: #00246b;
     height: 15%;
    display: flex;
    align-items: center;
    justify-content: space-between;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.6vmax;
+
 }
 
 .header>h2{
-    font-size: 1.5vmax;
+    font-size: 1.6vmax;
     color: white;
     margin: 2.5vmax;
 }
@@ -60,14 +64,14 @@
     box-sizing: border-box;
     background-color: white;
     outline: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.2vmax;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vmax;
     border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
 }
 
 
 .sendBtn{
-    background-color: crimson;
+    background-color: #00246b;
     color: white;
     border: none;
     width: 21%;
@@ -81,7 +85,7 @@
     transition: all 0.3s;
 }
 .sendBtn:hover{
-    background-color: rgb(156, 13, 42);
+    background-color: #00226b;
 } 
 .sendBtn:hover img{
     transform: translateX(10px);
